@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ASCEE V2</title>
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="build/assets/app-ChsDKZuX.css">
 </head>
 
 <body>
@@ -20,29 +20,29 @@
         <h3 class="font-poppins my-4 text-2xl font-medium lga:text-4xl">ASCEE Partners</h3>
         <div class="mt-4 flex flex-col">
             <div class="flex flex-col items-center lga:flex-row lga:items-start">
-                <a href="https://www.uii.ac.id/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner1.png') }} alt=""></a>
-                <a href="https://www.crossref.org/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner2.png') }} alt=""></a>
-                <a href="https://kemlu.go.id/beijing/en"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner3.png') }} alt=""></a>
-                <a href="https://app.grammarly.com/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner4.png') }} alt=""></a>
-                <a href="https://oversea.cnki.net/index/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner5.png') }} alt=""></a>
+                <a href="https://www.uii.ac.id/"> <img class="lga:h-auto xla:h-28" src='assets/partner1.png'
+                        alt=""></a>
+                <a href="https://www.crossref.org/"> <img class="lga:h-auto xla:h-28" src='assets/partner2.png'
+                        alt=""></a>
+                <a href="https://kemlu.go.id/beijing/en"> <img class="lga:h-auto xla:h-28" src='assets/partner3.png'
+                        alt=""></a>
+                <a href="https://app.grammarly.com/"> <img class="lga:h-auto xla:h-28" src='assets/partner4.png'
+                        alt=""></a>
+                <a href="https://oversea.cnki.net/index/"> <img class="lga:h-auto xla:h-28" src='assets/partner5.png'
+                        alt=""></a>
             </div>
             <div class="flex flex-col items-center lga:flex-row lga:items-start">
 
                 <a href="https://www.dstu.dp.ua/uni/index.html"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner6.png') }} alt=""></a>
-                <a href="https://www.google.com/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner7.png') }} alt=""></a>
+                        src='assets/partner6.png' alt=""></a>
+                <a href="https://www.google.com/"> <img class="lga:h-auto xla:h-28" src='assets/partner7.png'
+                        alt=""></a>
                 <a href="https://www.unibarranquilla.edu.co/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner8.png') }} alt=""></a>
-                <a href="https://untad.ac.id/en/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner9.png') }} alt=""></a>
-                <a href="https://isi-ska.ac.id/"> <img class="lga:h-auto xla:h-28"
-                        src={{ asset('assets/partner10.png') }} alt=""></a>
+                        src='assets/partner8.png' alt=""></a>
+                <a href="https://untad.ac.id/en/"> <img class="lga:h-auto xla:h-28" src='assets/partner9.png'
+                        alt=""></a>
+                <a href="https://isi-ska.ac.id/"> <img class="lga:h-auto xla:h-28" src='assets/partner10.png'
+                        alt=""></a>
             </div>
         </div>
         <div class="mt-12 flex flex-col gap-12 xla:flex-row">
@@ -107,17 +107,17 @@
                 </div>
                 <div class="my-4 flex flex-row flex-wrap gap-1 sma:gap-4">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/square-facebook-brands-solid.svg') }}" alt="">
+                        src="assets/Icons/square-facebook-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/square-twitter-brands-solid.svg') }}" alt="">
+                        src="assets/Icons/square-twitter-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/square-google-plus-brands-solid.svg') }}" alt="">
+                        src="assets/Icons/square-google-plus-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/square-youtube-brands-solid.svg') }}" alt="">
+                        src="assets/Icons/square-youtube-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/square-instagram-brands-solid.svg') }}" alt="">
-                    <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="{{ asset('assets/Icons/envelope-solid.svg') }}" alt="">
+                        src="assets/Icons/square-instagram-brands-solid.svg" alt="">
+                    <img class="aspect-square h-8 rounded-md lga:h-12" src="assets/Icons/envelope-solid.svg"
+                        alt="">
                 </div>
                 <p class="text-sm font-medium lga:text-base">Total Visitors: 130736</p>
                 <p class="text-sm font-medium lga:text-base">Total Visitors Today: 175</p>
