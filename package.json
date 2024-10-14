@@ -2,13 +2,15 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
+         "dev": "vite",
+        "serve": "php artisan serve",
         "build": "vite build",
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "production": "mix --production",
-        "format": "prettier --write 'resources/**/*.{js,vue,blade.php,json,css}'"
+        "format": "prettier --write 'resources/**/*.{js,vue,blade.php,json,css}'",
+        "start": "concurrently \"npm:dev\" \"npm:serve\"" 
     },
     "devDependencies": {
         "@prettier/plugin-php": "^0.22.2",
@@ -17,6 +19,7 @@
         "axios": "^1.7.4",
         "browser-sync": "^2.29.3",
         "browser-sync-webpack-plugin": "^2.3.0",
+        "concurrently": "^9.0.1",
         "laravel-mix": "^6.0.49",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.47",
