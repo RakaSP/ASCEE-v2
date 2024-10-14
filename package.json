@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-         "dev": "vite",
+        "dev": "vite",
         "serve": "php artisan serve",
         "build": "vite build",
         "watch": "mix watch",
@@ -10,7 +10,7 @@
         "hot": "mix watch --hot",
         "production": "mix --production",
         "format": "prettier --write 'resources/**/*.{js,vue,blade.php,json,css}'",
-        "start": "concurrently \"npm:dev\" \"npm:serve\"" 
+        "start": "concurrently \"npm:dev\" \"npm:serve\""
     },
     "devDependencies": {
         "@prettier/plugin-php": "^0.22.2",
@@ -25,6 +25,7 @@
         "postcss": "^8.4.47",
         "prettier": "^3.3.3",
         "tailwindcss": "^3.4.12",
-        "vite": "^5.0"
+        "vite": "^5.0",
+        "vite-plugin-static-copy": "^2.0.0"
     }
 }
