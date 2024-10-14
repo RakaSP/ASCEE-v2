@@ -12,9 +12,18 @@ export default defineConfig({
             targets: [
                 {
                     src: 'resources/images/*',
-                    dest: '/build/assets/images/images',
+                    dest: 'assets/images',
                 },
             ],
         }),
     ],
+    build: {
+        rollupOptions: {
+            output: {
+                entryFileNames: 'assets/[name].js', 
+                chunkFileNames: 'assets/[name].js',
+                assetFileNames: 'assets/[name].[ext]' 
+            }
+        }
+    }
 });
