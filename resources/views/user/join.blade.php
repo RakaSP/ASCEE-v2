@@ -2,9 +2,7 @@
 
 @section('content')
     <div class="w-full xla:w-[70%]">
-        <header>
-            <img src={{ asset('assets/membership-header.png') }} alt="">
-        </header>
+
         <div class="w-full">
             <h4 class="mt-2 text-xl font-semibold lga:mt-6 lga:text-3xl">Why Join ASCEE?</h4>
             <ul class="mt-1 list-disc pl-8 text-sm lga:mt-4 lga:text-lg">

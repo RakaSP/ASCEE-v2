@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ASCEE V2</title>
-    <link rel="stylesheet" href="build/assets/app-ChsDKZuX.css">
+    <link rel="stylesheet" href="/build/assets/app-ChsDKZuX.css">
 </head>
 
 <body>
@@ -21,28 +21,28 @@
         <div class="mt-4 flex flex-col">
             <div class="flex flex-col items-center lga:flex-row lga:items-start">
                 <a href="https://www.uii.ac.id/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner1.png' alt=""></a>
+                        src='/build/assets/images/partner1.png' alt=""></a>
                 <a href="https://www.crossref.org/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner2.png' alt=""></a>
+                        src='/build/assets/images/partner2.png' alt=""></a>
                 <a href="https://kemlu.go.id/beijing/en"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner3.png' alt=""></a>
+                        src='/build/assets/images/partner3.png' alt=""></a>
                 <a href="https://app.grammarly.com/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner4.png' alt=""></a>
+                        src='/build/assets/images/partner4.png' alt=""></a>
                 <a href="https://oversea.cnki.net/index/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner5.png' alt=""></a>
+                        src='/build/assets/images/partner5.png' alt=""></a>
             </div>
             <div class="flex flex-col items-center lga:flex-row lga:items-start">
 
                 <a href="https://www.dstu.dp.ua/uni/index.html"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner6.png' alt=""></a>
+                        src='/build/assets/images/partner6.png' alt=""></a>
                 <a href="https://www.google.com/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner7.png' alt=""></a>
+                        src='/build/assets/images/partner7.png' alt=""></a>
                 <a href="https://www.unibarranquilla.edu.co/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner8.png' alt=""></a>
+                        src='/build/assets/images/partner8.png' alt=""></a>
                 <a href="https://untad.ac.id/en/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner9.png' alt=""></a>
+                        src='/build/assets/images/partner9.png' alt=""></a>
                 <a href="https://isi-ska.ac.id/"> <img class="lga:h-auto xla:h-28"
-                        src='build/assets/images/partner10.png' alt=""></a>
+                        src='/build/assets/images/partner10.png' alt=""></a>
             </div>
         </div>
         <div class="mt-12 flex flex-col gap-12 xla:flex-row">
@@ -107,17 +107,17 @@
                 </div>
                 <div class="my-4 flex flex-row flex-wrap gap-1 sma:gap-4">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="assets/Icons/square-facebook-brands-solid.svg" alt="">
+                        src="/build/assets/images/Icons/square-facebook-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="assets/Icons/square-twitter-brands-solid.svg" alt="">
+                        src="/build/assets/images/Icons/square-twitter-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="assets/Icons/square-google-plus-brands-solid.svg" alt="">
+                        src="/build/assets/images/Icons/square-google-plus-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="assets/Icons/square-youtube-brands-solid.svg" alt="">
+                        src="/build/assets/images/Icons/square-youtube-brands-solid.svg" alt="">
                     <img class="aspect-square h-8 rounded-md lga:h-12"
-                        src="assets/Icons/square-instagram-brands-solid.svg" alt="">
-                    <img class="aspect-square h-8 rounded-md lga:h-12" src="assets/Icons/envelope-solid.svg"
-                        alt="">
+                        src="/build/assets/images/Icons/square-instagram-brands-solid.svg" alt="">
+                    <img class="aspect-square h-8 rounded-md lga:h-12"
+                        src="/build/assets/images/Icons/envelope-solid.svg" alt="">
                 </div>
                 <p class="text-sm font-medium lga:text-base">Total Visitors: 130736</p>
                 <p class="text-sm font-medium lga:text-base">Total Visitors Today: 175</p>

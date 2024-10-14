@@ -2,9 +2,6 @@
 
 @section('content')
     <div class="w-full xla:w-[70%]">
-        <header>
-            <img src={{ asset('assets/membership-header.png') }} alt="">
-        </header>
         <div class="w-full">
             <article id="about-us" class="border-b-2 pb-4">
                 <h4 class="mt-6 text-xl font-semibold lga:text-3xl">Member Benefits</h4>
@@ -22,7 +19,8 @@
                     areas.
                 </p>
                 <p class="mt-4 text-justify indent-8 text-sm lga:text-lg">
-                    ASCEE as NGO was approved through the Decree of the <span class="font-semibold">Minister of Law and Human
+                    ASCEE as NGO was approved through the Decree of the <span class="font-semibold">Minister of Law and
+                        Human
                         Rights of the Republic of
                         Indonesia</span> Number "<span class="font-semibold">AHU-0000152.AH.01.07.TAHUN 2017</span>" on
                     <span class="font-semibold">January 5, 2017</span>, and has a Taxpayer

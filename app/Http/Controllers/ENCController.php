@@ -21,7 +21,7 @@ class ENCController extends Controller
         return
             [
                 [
-                    'image' => asset('assets/ENC1.jpeg'),
+                    'image' => '/build/assets/images/ENC1.jpeg',
                     'date' => '13 Aug 2020',
                     'title' => '[INFO] JOURNAL EDITOR GRANT untuk Kampus 2020',
                     'description' => "
@@ -37,7 +37,7 @@ class ENCController extends Controller
 
                 ],
                 [
-                    'image' => asset('assets/ENC2.png'),
+                    'image' => '/build/assets/images/ENC2.png',
                     'date' => '04 Jul 2020',
                     'title' => '2020 ASCEE International Scholarship',
                     'description' => "
@@ -90,7 +90,7 @@ class ENCController extends Controller
 "
                 ],
                 [
-                    'image' => asset('assets/ENC3.png'),
+                    'image' => '/build/assets/images/ENC3.png',
                     'date' => '02 Jul 2020',
                     'title' => 'ASCEE-Grammarly Premium Feature',
                     'description' => "
@@ -122,17 +122,17 @@ class ENCController extends Controller
 
                 ],
                 [
-                    'image' => asset('assets/ENC4.jpeg'),
+                    'image' => '/build/assets/images/ENC4.jpeg',
                     'date' => '09 Jul 2020',
                     'title' => 'Journal EDITOR GRANT untuk Kampus',
                 ],
                 [
-                    'image' => asset('assets/ENC5.jpeg'),
+                    'image' => '/build/assets/images/ENC5.jpeg',
                     'date' => '02 Jul 2020',
                     'title' => '2020 2nd Ascee Scholarship',
                 ],
                 [
-                    'image' => asset('assets/ENC6.png'),
+                    'image' => '/build/assets/images/ENC6.png',
                     'date' => '02 Jul 2020',
                     'title' => 'Register DOI and Crosscheck-iThenticate by ASCEE-Crossref',
                     'description' => '

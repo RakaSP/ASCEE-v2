@@ -1,5 +1,4 @@
 <div class="flex justify-end px-4">
-    <!-- Hamburger icon only visible on screens below 1024px (lga:hidden ensures it's hidden on larger screens) -->
     <button id="hamburger" class="block rounded-lg bg-[#ccc] p-2 focus:outline-none xla:hidden">
         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -10,10 +9,10 @@
 <nav id="navbar"
     class="3xla:px-[15%] hidden w-full flex-col items-center justify-center border-t-2 px-[5%] pt-4 lga:items-center lga:justify-center lga:border-none lga:pt-0 xla:flex xla:gap-2 x2la:flex-row x2la:gap-0">
     <div class="flex w-full flex-row justify-between x2la:hidden">
-        <img class='h-8 lga:h-12' src="{{ asset('assets/logobdc.png') }}" alt="">
-        <img class='h-8 lga:h-12' src="{{ asset('assets/logoascee.png') }}" alt="">
+        <img class='h-8 lga:h-12' src="/build/assets/images/logobdc.png" alt="">
+        <img class='h-8 lga:h-12' src="/build/assets/images/logoascee.png" alt="">
     </div>
-    <img class='hidden h-12 x2la:inline' src="{{ asset('assets/logobdc.png') }}" alt="">
+    <img class='hidden h-12 x2la:inline' src="/build/assets/images/logobdc.png" alt="">
 
     <ul
         class="mt-2 flex w-full flex-col flex-wrap gap-4 text-sm lga:text-base xla:mx-auto xla:w-auto xla:flex-row x2la:mt-0">
@@ -42,30 +41,26 @@
             </li>
         @endforeach
     </ul>
-    <img class='hidden h-12 x2la:inline' src="{{ asset('assets/logoascee.png') }}" alt="Logo ASCEE">
+    <img class='hidden h-12 x2la:inline' src="/build/assets/images/logoascee.png" alt="Logo ASCEE">
 </nav>
 
 <script>
     const hamburger = document.getElementById('hamburger');
     const navbar = document.getElementById('navbar');
 
-    // Toggle navbar visibility on small screens
     hamburger.addEventListener('click', () => {
         navbar.classList.toggle('hidden');
         navbar.classList.toggle('flex');
     });
 
-    // Ensure navbar visibility on resize
     window.addEventListener('resize', () => {
-        const lgaBreakpoint = window.matchMedia("(min-width: 1024px)"); // 1024px breakpoint for lga
+        const lgaBreakpoint = window.matchMedia("(min-width: 1024px)");
 
         if (lgaBreakpoint.matches) {
-            // Show the navbar on large screens
             navbar.classList.add('flex');
             navbar.classList.remove('hidden');
-            hamburger.classList.add('hidden'); // Hide burger icon on large screens
+            hamburger.classList.add('hidden');
         } else {
-            // Show the burger icon and hide navbar on small screens
             hamburger.classList.remove('hidden');
             if (!navbar.classList.contains('flex')) {
                 navbar.classList.add('hidden');
@@ -73,7 +68,6 @@
         }
     });
 
-    // Handle the dropdown toggle
     function toggleDropdown(event) {
         event.preventDefault();
 

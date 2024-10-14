@@ -5,7 +5,7 @@
 @section('content')
     <div class="w-full">
         <header class="relative">
-            <img src={{ asset('assets/membership-header.png') }} alt="">
+            <img src='/build/assets/images/membership-header.png' alt="">
             <h2 class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl text-white lga:text-4xl">
                 Membership</h2>
         </header>
@@ -103,11 +103,11 @@
                             <td class="border-b border-gray-200 bg-[#eef0f5] px-4 py-2 text-sm font-semibold lga:text-lg">
                                 {{ $benefit }}</td>
                             <td class="border-b border-gray-200 py-2 pl-8">
-                                <img src="{{ asset('assets/Icons/circle-check-solid.svg') }}" alt="Checked"
+                                <img src="/build/assets/images/Icons/circle-check-solid.svg" alt="Checked"
                                     class="affiliate-benefit {{ !$options['affiliate'] ? 'hidden' : '' }} h-4 w-4 lga:h-8 lga:w-8" />
                             </td>
                             <td class="border-b border-gray-200 py-2 pl-8">
-                                <img src="{{ asset('assets/Icons/circle-check-solid.svg') }}" alt="Checked"
+                                <img src="/build/assets/images/Icons/circle-check-solid.svg" alt="Checked"
                                     class="personal-benefit {{ !$options['personal'] ? 'hidden' : '' }} h-4 w-4 lga:h-8 lga:w-8" />
                             </td>
                         </tr>

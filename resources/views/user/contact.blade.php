@@ -2,9 +2,6 @@
 
 @section('content')
     <div class="w-full xla:w-[70%]">
-        <header>
-            <img src={{ asset('assets/membership-header.png') }} alt="">
-        </header>
         <div class="mt-4 w-full pb-4">
             <h4 class="mt-6 text-xl font-semibold lga:text-3xl">Contact Us</h4>
             <p class="mt-2 text-base font-medium lga:text-xl">Assocation for Scientific Computing and Engineering (ASCEE)</p>

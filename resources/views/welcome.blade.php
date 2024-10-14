@@ -3,21 +3,21 @@
     $banners = [
         [
             'id' => 'banner1',
-            'image' => asset('assets/home-banner1.jpg'),
+            'image' => '/build/assets/images/home-banner1.jpg',
             'title' => 'Penerima 2nd ASCEE Scholarship TA 2020/2021',
             'link' => '/news/read/1',
             'number' => '1',
         ],
         [
             'id' => 'banner2',
-            'image' => asset('assets/home-banner2.png'),
+            'image' => '/build/assets/images/home-banner2.png',
             'title' => 'Penerima ASCEE Editor Grant 2020',
             'link' => '/news/read/2',
             'number' => '2',
         ],
         [
             'id' => 'banner3',
-            'image' => asset('assets/home-banner3.png'),
+            'image' => '/build/assets/images/home-banner3.png',
             'title' => 'ASCEE Student Indonesia gelar webinar "Tips & Trik Memulai Tugas"',
             'link' => '/news/read/3',
             'number' => '3',
@@ -59,7 +59,7 @@
                 <div class="flex h-full flex-col gap-4 lga:flex-row">
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/home-banner1.jpg') }} alt="">
+                            <img src= '/build/assets/images/home-banner1.jpg' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">06 Oct 2021
                                 </p>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/home-banner2.png') }} alt="">
+                            <img src= '/build/assets/images/home-banner2.png' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">01 Sep 2020
                                 </p>
@@ -100,7 +100,7 @@
                     </div>
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/home-banner3.png') }} alt="">
+                            <img src= '/build/assets/images/home-banner3.png' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">29 Aug 2020
                                 </p>
@@ -136,7 +136,7 @@
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
                             <div class="flex h-[200px] items-center justify-center p-4">
-                                <img class="max-h-full w-auto" src={{ asset('assets/CNE1.jpeg') }} alt="">
+                                <img class="max-h-full w-auto" src= '/build/assets/images/CNE1.jpeg' alt="">
                             </div>
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">29 Jul 2020
@@ -158,7 +158,7 @@
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
                             <div class="flex h-[200px] items-center justify-center p-4">
-                                <img class="max-h-full w-auto" src={{ asset('assets/CNE2.jpg') }} alt="">
+                                <img class="max-h-full w-auto" src= '/build/assets/images/CNE2.jpg' alt="">
                             </div>
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">18 Jul 2020
@@ -182,7 +182,7 @@
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
                             <div class="flex h-[200px] items-center justify-center p-4">
-                                <img class="max-h-full w-auto" src={{ asset('assets/CNE3.jpeg') }} alt="">
+                                <img class="max-h-full w-auto" src= '/build/assets/images/CNE3.jpeg' alt="">
                             </div>
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">13 Jul 2020
@@ -213,7 +213,7 @@
                 <div class="flex h-full flex-col gap-4 lga:flex-row">
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/ENC1.jpeg') }} alt="">
+                            <img src= '/build/assets/images/ENC1.jpeg' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">13 Aug 2020
                                 </p>
@@ -234,7 +234,7 @@
                     </div>
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/ENC2.png') }} alt="">
+                            <img src= '/build/assets/images/ENC2.png' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">04 Jul 2020
                                 </p>
@@ -255,7 +255,7 @@
                     </div>
                     <div class="flex flex-[33%] flex-col justify-between rounded-lg border-2">
                         <div>
-                            <img src={{ asset('assets/ENC3.png') }} alt="">
+                            <img src= '/build/assets/images/ENC3.png' alt="">
                             <div class="p-2">
                                 <p class="py-2 text-[12px] font-medium text-[--var-text-dimmed] lga:text-base">02 Jul 2020
                                 </p>
@@ -282,22 +282,22 @@
     </aside>
     <script>
         const banners = [
-            document.getElementById('banner1'),
-            document.getElementById('banner2'),
-            document.getElementById('banner3')
-        ];
-        let currentIndex = 0;
+                document.getElementById('banner1',
+                    document.getElementById('banner2',
+                        document.getElementById('banner3')
+                    ];
+                    let currentIndex = 0;
 
-        function showNextBanner() {
-            banners[currentIndex].classList.remove('opacity-100');
-            banners[currentIndex].classList.add('opacity-0', 'pointer-events-none');
+                    function showNextBanner() {
+                        banners[currentIndex].classList.remove('opacity-100');
+                        banners[currentIndex].classList.add('opacity-0', 'pointer-events-none');
 
-            currentIndex = (currentIndex + 1) % banners.length;
+                        currentIndex = (currentIndex + 1) % banners.length;
 
-            banners[currentIndex].classList.remove('opacity-0', 'pointer-events-none');
-            banners[currentIndex].classList.add('opacity-100');
-        }
+                        banners[currentIndex].classList.remove('opacity-0', 'pointer-events-none');
+                        banners[currentIndex].classList.add('opacity-100');
+                    }
 
-        setInterval(showNextBanner, 3000);
+                    setInterval(showNextBanner, 3000);
     </script>
 @endsection

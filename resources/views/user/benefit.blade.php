@@ -3,7 +3,7 @@
 @section('content')
     <div class="w-full xla:w-[70%]">
         <header>
-            <img src={{ asset('assets/membership-header.png') }} alt="">
+            <img src='/build/assets/images/membership-header.png' alt="">
         </header>
         <div class="w-full">
             <h4 class="mt-6 text-xl font-semibold lga:text-3xl">Member Benefits</h4>

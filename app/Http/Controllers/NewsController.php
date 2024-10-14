@@ -35,7 +35,7 @@ class NewsController extends Controller
             [
                 'title' => 'Pengumuman Hasil Akhir Penerima 2nd ASCEE Scholarship TA 2020/2021',
                 'date' => '06 Oct 2021',
-                'image' => asset('assets/home-banner1.jpg'),
+                'image' => '/build/assets/images/home-banner1.jpg',
                 'description' => '
 <div class="rounded-lg">
     <h3 class="text-xl font-semibold pb-2">Penerima ASCEE Scholarship 2020/2021:</h3>
@@ -136,7 +136,7 @@ class NewsController extends Controller
             [
                 'title' => 'Pengumuman Penerima ASCEE Editor Grant 2020',
                 'date' => '01 Sep 2020',
-                'image' => asset('assets/home-banner2.png'),
+                'image' => '/build/assets/images/home-banner2.png',
                 'description' => '
 <div class="py-4">
     <p class="mb-4">Hasil seleksi Wawancara ASCEE Editor Grant 2020 pada 26-27 Agustus 2020, kami umumkan Peserta yang lolos dan akan mendapatkan ASCEE Editor Grant 2020, sebagai berikut:</p>
@@ -169,12 +169,12 @@ class NewsController extends Controller
             [
                 'title' => 'ASCEE Student Indonesia gelar Webinar “Tips & Trik Memulai Tugas Akhir untuk Mahasiswa Galau di Tengah Kuliah Daring”',
                 'date' => '29 Aug 2020,',
-                'image' => asset('assets/home-banner3.png'),
+                'image' => '/build/assets/images/home-banner3.png',
                 'description' => '
 <div class="pb-4">
     <p class="mb-4 indent-4">Dalam masa pandemic Covid-19 seperti saat ini, ASCEE Student Branch Indonesia mengadakan kegiatan berupa Live Webinar #1 dengan tema “Tips & Trik Memulai Tugas Akhir untuk Mahasiswa Galau di Tengah Kuliah Daring”. Kegiatan ini dilaksanakan pada Kamis, 27 Agustus 2020. Pelatihan diadakan online di melalui Zoom, serta disiarkan online melalui YouTube. Kegiatan tersebut dimulai pukul 14.30 WIB hingga pukul 16.30 WIB.</p>
 
-    <p class="mb-4 indent-4">Kegiatan ini dipandu oleh Ahmad Shohibus Sulthoni (Mahasiswa Telkom Univeristy), dengan pembicara Aji Prasetya Wibawa, S.T., M.M.T., Ph.D., (Universitas Negeri Malang) dan diikuti oleh 240 mahasiswa dari berbagai universitas di Indonesia dan Luar Negeri. Workshop ini sendiri memiliki tujuan utama yaitu membantu mahasiswa tingkat akhir untuk menentukan langkah awal memulai Tugas Akhir/Skripsi.</p>
+    <p class="mb-4 indent-4">Kegiatan ini dipandu oleh Ahmad Shohibus Sulthoni (Mahasiswa Telkom Univeristy, dengan pembicara Aji Prasetya Wibawa, S.T., M.M.T., Ph.D., (Universitas Negeri Malang) dan diikuti oleh 240 mahasiswa dari berbagai universitas di Indonesia dan Luar Negeri. Workshop ini sendiri memiliki tujuan utama yaitu membantu mahasiswa tingkat akhir untuk menentukan langkah awal memulai Tugas Akhir/Skripsi.</p>
 
     <p class="mb-4 indent-4">“Kegiatan ini kami buat dengan melihat kondisi mahasiswa yang masih merasa bingung dengan tugas akhir yang akan dikerjakan sebagai bentuk produk kelulusan dan mendapatkan gelar sarjana sebagai bentuk tanggungjawab selama kegiatan perkuliahan. Dengan melihat kasus tersebut, kami dari ASCEE Student Branch Indonesia mengadakan kegiatan ini secara Gratis yang dapat diikuti oleh seluruh mahasiswa dengan berbagai latar belakang program studi” ucap Ahmad Shohibus Sulthoni, Salah satu perwakilan mahasiswa Telkom University yang tergabung di ASCEE Student Indonesia.</p>
 
@@ -186,7 +186,7 @@ class NewsController extends Controller
             [
                 'title' => 'Pengumuman Lolos Seleksi Administrasi JOURNAL EDITOR GRANT untuk Kampus Tahun 2020',
                 'date' => '15 Aug 2020',
-                'image' => asset('assets/home-banner4.jpg'),
+                'image' => '/build/assets/images/home-banner4.jpg',
                 'description' => '
 <div class="py-4">
     <p class="mb-4">Dengan ini diinformasikan bahwa rangkaian seleksi administrasi penerimaan JOURNAL EDITOR GRANT untuk Kampus Batch I Tahun 2020 telah selesai dilaksanakan. Nama-nama kampus yang lolos administrasi dapat dilihat pada daftar terlampir.</p>
@@ -333,7 +333,7 @@ class NewsController extends Controller
             [
                 'title' => 'Indonesian Embassy in Beijing held a Virtual Quiz Competition for Indonesian Students in China',
                 'date' => '12 Aug 2020',
-                'image' => asset('assets/home-banner5.png'),
+                'image' => '/build/assets/images/home-banner5.png',
                 'description' => "
 <div>
     <h3>Beijing - Virtual quiz competition was officially opened on 12/08/2020 by the Education and Cultural Attache of the Embassy of the Republic of Indonesia in Beijing. This activity collaborates with the Indonesian Embassy in Beijing, Education, and Cultural Attache of the Embassy of the Republic of Indonesia in Beijing, ANTARA Beijing, ASCEE China Section, ASCEE Student Branch, Indonesian Student Association in China (PPIT) and the Indonesian Assistance Movement (GIM).</h3>
@@ -357,20 +357,20 @@ class NewsController extends Controller
     <p>Reporter: | Faqih |</p>
 </div>",
             ],
-            ['title' => 'ASCEE Indonesia holds a "Data Science in Economics and Business" webinar', 'date' => '14 Jul 2020', 'image' => asset('assets/home-banner6.png')],
-            ['title' => 'In the upcoming Short Film Competition, ASCEE Student Branch China Section Holds a Film Workshop Webinar', 'date' => '10 Jul 2020', 'image' => asset('assets/home-banner7.png')],
-            ['title' => 'ASCEE Organize Ad Hoc Formation of ASCEE Student Branch Indonesia', 'date' => '09 Jul 2020', 'image' => asset('assets/home-banner8.jpeg')],
-            ['title' => 'ASCEE China Section collaborate with Indonesian Student Association (PPI) China Gather Donation for Covid19', 'date' => '07 Jul 2020', 'image' => asset('assets/home-banner9.jpeg')],
-            ['title' => 'For "Indonesia Future Progress", ASCEE presents Journal Editor Grant', 'date' => '03 Jul 2020', 'image' => asset('assets/home-banner10.jpg')],
-            ['title' => 'Verbal Traditions and Pagebluk Myth in Java Become Topics of National Webinars', 'date' => '28 Jun 2020', 'image' => asset('assets/home-banner11.jpg')],
-            ['title' => '[Announcement] The Winners of Student Scientific Writing Contest (LKTM) ASCEE-Indonesia Embassy (KBRI) Beijing 2020', 'date' => '26 Jun 2020', 'image' => asset('assets/home-banner12.jpeg')],
-            ['title' => 'Visual Communication Design responds to COVID-19', 'date' => '26 Jun 2020', 'image' => asset('assets/home-banner13.jpg')],
-            ['title' => 'ASCEE holds the New Normal ASCEE Journal Workshop', 'date' => '26 Jun 2020', 'image' => asset('assets/home-banner14.jpg')],
-            ['title' => '70 Years of Diplomatic Relations between Indonesia - China, ASCEE China holds LKTM 2020', 'date' => '13 Jun 2020', 'image' => asset('assets/home-banner15.jpeg')],
-            ['title' => 'ASCEE Scholarship 2019', 'date' => '14 Feb 2020', 'image' => asset('assets/home-banner16.png')],
-            ['title' => '2019 ASCEE Student Symposium (StuSymp)', 'date' => '14 Feb 2020', 'image' => asset('assets/home-banner17.png')],
-            ['title' => 'ASCEE Activities @ P.R China 2019', 'date' => '14 Feb 2020', 'image' => asset('assets/home-banner18.jpg')],
-            ['title' => '2019 ASCEE Conferences in JAPAN', 'date' => '14 Feb 2020', 'image' => asset('assets/home-banner19.png')],
+            ['title' => 'ASCEE Indonesia holds a "Data Science in Economics and Business" webinar', 'date' => '14 Jul 2020', 'image' => '/build/assets/images/home-banner6.png'],
+            ['title' => 'In the upcoming Short Film Competition, ASCEE Student Branch China Section Holds a Film Workshop Webinar', 'date' => '10 Jul 2020', 'image' => '/build/assets/images/home-banner7.png'],
+            ['title' => 'ASCEE Organize Ad Hoc Formation of ASCEE Student Branch Indonesia', 'date' => '09 Jul 2020', 'image' => '/build/assets/images/home-banner8.jpeg'],
+            ['title' => 'ASCEE China Section collaborate with Indonesian Student Association (PPI) China Gather Donation for Covid19', 'date' => '07 Jul 2020', 'image' => '/build/assets/images/home-banner9.jpeg'],
+            ['title' => 'For "Indonesia Future Progress", ASCEE presents Journal Editor Grant', 'date' => '03 Jul 2020', 'image' => '/build/assets/images/home-banner10.jpg'],
+            ['title' => 'Verbal Traditions and Pagebluk Myth in Java Become Topics of National Webinars', 'date' => '28 Jun 2020', 'image' => '/build/assets/images/home-banner11.jpg'],
+            ['title' => '[Announcement] The Winners of Student Scientific Writing Contest (LKTM) ASCEE-Indonesia Embassy (KBRI) Beijing 2020', 'date' => '26 Jun 2020', 'image' => '/build/assets/images/home-banner12.jpeg'],
+            ['title' => 'Visual Communication Design responds to COVID-19', 'date' => '26 Jun 2020', 'image' => '/build/assets/images/home-banner13.jpg'],
+            ['title' => 'ASCEE holds the New Normal ASCEE Journal Workshop', 'date' => '26 Jun 2020', 'image' => '/build/assets/images/home-banner14.jpg'],
+            ['title' => '70 Years of Diplomatic Relations between Indonesia - China, ASCEE China holds LKTM 2020', 'date' => '13 Jun 2020', 'image' => '/build/assets/images/home-banner15.jpeg'],
+            ['title' => 'ASCEE Scholarship 2019', 'date' => '14 Feb 2020', 'image' => '/build/assets/images/home-banner16.png'],
+            ['title' => '2019 ASCEE Student Symposium (StuSymp)', 'date' => '14 Feb 2020', 'image' => '/build/assets/images/home-banner17.png'],
+            ['title' => 'ASCEE Activities @ P.R China 2019', 'date' => '14 Feb 2020', 'image' => '/build/assets/images/home-banner18.jpg'],
+            ['title' => '2019 ASCEE Conferences in JAPAN', 'date' => '14 Feb 2020', 'image' => '/build/assets/images/home-banner19.png'],
         ];
     }
 }

@@ -2,10 +2,10 @@
 
 @section('content')
     <div class="w-full xla:w-[70%]">
-        <h4 class="lga:mt-6 mt-2 text-xl font-semibold lga:text-3xl">People</h4>
-        <p class="mt-2 lga:text-lg text-sm">List of 2020-2021 ASCEE Board of Direction</p>
+        <h4 class="mt-2 text-xl font-semibold lga:mt-6 lga:text-3xl">People</h4>
+        <p class="mt-2 text-sm lga:text-lg">List of 2020-2021 ASCEE Board of Direction</p>
         <div class="mt-2 border-b-2 pb-4">
-            <h5 class="lga:text-2xl text-lg font-semibold">Executive Officers</h5>
+            <h5 class="text-lg font-semibold lga:text-2xl">Executive Officers</h5>
             <ul class="ml-10 list-disc text-sm lga:text-lg">
                 <li>Chair: <strong>Sutarman</strong>, Assoc. Prof., S.Kom., M.Kom., Ph.D.</li>
                 <li>Vice-Chair: <strong>Aji Prasetya Wibawa</strong>, Assoc. Prof., Ph.D.</li>
@@ -28,45 +28,45 @@
             </ul>
         </div>
         <div class="mt-4 border-b-2 pb-4 text-lg">
-            <h5 class="lga:text-2xl text-lg font-semibold">Sections</h5>
-            <p class="mt-2 indent-4 lga:text-base text-sm" >
+            <h5 class="text-lg font-semibold lga:text-2xl">Sections</h5>
+            <p class="mt-2 indent-4 text-sm lga:text-base">
                 ASCEE Indonesia: <strong>Ahmad Azhari</strong>, Assist. Prof., M.Eng.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE P.R. China: <strong>Su Zhe</strong>, Assist. Prof., M.Sn.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Australia: <strong>Anusua Ghosh</strong>, Assoc. Prof., Ph.D.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Japan: <strong>Mahdillah</strong>
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Colombia: <strong>Leonel Hernandez</strong>, Assist. Prof.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Pakistan: <strong>Misbah</strong>, Ph.D.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE India: <strong>Nazima Rangwala Kalita</strong>
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Malaysia: <strong>Sarina Sulaiman</strong>, Assoc. Prof., Ph.D.
             </p>
-            <p class="indent-4 lga:text-base text-sm">
+            <p class="indent-4 text-sm lga:text-base">
                 ASCEE Ukraine: <strong>Roman Voliansky</strong>, Assoc. Prof., Ph.D.
             </p>
         </div>
         <div class="mt-4 border-b-2 pb-4">
-            <h5 class="lga:text-2xl text-lg font-semibold">Societies</h5>
+            <h5 class="text-lg font-semibold lga:text-2xl">Societies</h5>
             <ul class="ml-8 mt-2 list-disc">
                 <li>
-                    <h6 class="lga:text-xl text-base">Computer</h6>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Executive Committee *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <h6 class="text-base lga:text-xl">Computer</h6>
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Executive Committee *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Edi Sutoyo, Assist. Prof.</li>
                     </ul>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Member *</i></div>
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Member *</i></div>
                     <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>
                             Rafal Drezewski, Assoc. Prof.
@@ -86,9 +86,9 @@
                     </ul>
                 </li>
                 <li>
-                    <h6 class="lga:text-xl text-base1">Visual and Performing Arts (Viperarts)</h6>
-                    <div class="py-2"><i class="lga:text-lg text-base font-medium">Executive Committee *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <h6 class="text-base1 lga:text-xl">Visual and Performing Arts (Viperarts)</h6>
+                    <div class="py-2"><i class="text-base font-medium lga:text-lg">Executive Committee *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>
                             Yang Xifan, Prof. Dr.
                         </li>
@@ -96,8 +96,8 @@
                             Aton Rustandi Mulyana, Assoc. Prof.
                         </li>
                     </ul>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Member *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Member *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>
                             Mumtaz Mokhtar, Dr.
                         </li>
@@ -131,9 +131,9 @@
                     </ul>
                 </li>
                 <li>
-                    <h6 class="lga:text-xl text-base">Education</h6>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Executive Committee *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <h6 class="text-base lga:text-xl">Education</h6>
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Executive Committee *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>
                             Zaidatun Tasir, Prof., Ph.D.
                         </li>
@@ -141,8 +141,8 @@
                             Zalik Nuryana, Assist. Prof.
                         </li>
                     </ul>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Member *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Member *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Intisar Ambu-Saidi, Ph.D.</li>
                         <li>Ika Maryani, Assist. Prof. </li>
                         <li>Syarief Fajaruddin</li>
@@ -154,14 +154,14 @@
                     </ul>
                 </li>
                 <li>
-                    <h6 class="lga:text-xl text-base">Communication</h6>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Executive Committee *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <h6 class="text-base lga:text-xl">Communication</h6>
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Executive Committee *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Luo Zhenglin, Prof., PhD.</li>
                         <li>Dani Fadillah, Assist. Prof. </li>
                     </ul>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Member *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Member *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Marie Nathalie Jauffret, Prof., PhD.</li>
                         <li>Hyung Jun Kim, Prof., Ph.D. </li>
                         <li>Nandini Lakshmikantha, Prof., Dr.</li>
@@ -179,14 +179,14 @@
                     </ul>
                 </li>
                 <li>
-                    <h6 class="lga:text-xl text-base">Education</h6>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Executive Committee *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <h6 class="text-base lga:text-xl">Education</h6>
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Executive Committee *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Cicilia Marcella, dr., MBBS, M.M</li>
                         <li>Asep Santoso, dr., SpOT.</li>
                     </ul>
-                    <div class="py-2"><i class="lga:text-lg text-sm font-medium">Member *</i></div>
-                    <ul class="ml-10 list-decimal lga:text-lg text-sm">
+                    <div class="py-2"><i class="text-sm font-medium lga:text-lg">Member *</i></div>
+                    <ul class="ml-10 list-decimal text-sm lga:text-lg">
                         <li>Shakeel Sarwar, dr., MBBS, M.S(Orthopedics).</li>
                         <li>Reviono Prof. Dr. dr., Sp.P(K).</li>
                         <li>Muhammad Ikhwan Zein, dr, Sp.KO.</li>
@@ -196,8 +196,8 @@
             </ul>
         </div>
         <div class="mt-4 pb-4">
-            <h5 class="lga:text-2xl text-lg font-semibold">ASCEE Staff</h5>
-            <ul class="ml-10 mt-2 list-decimal lga:text-lg text-sm">
+            <h5 class="text-lg font-semibold lga:text-2xl">ASCEE Staff</h5>
+            <ul class="ml-10 mt-2 list-decimal text-sm lga:text-lg">
                 <li>Gema Antika</li>
                 <li>Muhammad Ryan</li>
                 <li>Qoni</li>

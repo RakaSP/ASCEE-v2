@@ -27,7 +27,7 @@ class ConferencesController extends Controller
         return [
             [
                 'title' => 'ASCEE BLINK #1: Find ideas, Implement, and Research Result Publication',
-                'image' => asset('assets/conferences1.jpg'),
+                'image' => '/build/assets/images/conferences1.jpg',
                 'date' => '29 Jul 2020',
                 'place' => 'Universitas Aisyiyah (UNISA) Yogyakarta',
                 'website' => 'https://ichst.unisayogya.ac.id/2020/',
@@ -36,7 +36,7 @@ class ConferencesController extends Controller
 
             [
                 'title' => 'International Conference on Health Science and Technology 2020 (ICHST)',
-                'image' => asset('assets/conferences2.jpeg'),
+                'image' => '/build/assets/images/conferences2.jpeg',
                 'date' => '18 Jul 2020',
                 'place' => 'Universitas Tadulako',
                 'website' => 'http://icsitech.org/2020',
@@ -45,7 +45,7 @@ class ConferencesController extends Controller
 
             [
                 'title' => 'ASCEE Webinar: Data Science in Economics',
-                'image' => asset('assets/conferences3.jpeg'),
+                'image' => '/build/assets/images/conferences3.jpeg',
                 'date' => '13 Jul 2020',
                 'place' => 'Universitas Tadulako',
                 'website' => 'http://icosiet.org/2020/',

@@ -27,7 +27,7 @@
                     <p class="xla:text-sm x2la:text-base">Free annual fee of DOI and Crosscheck (iThenticate) for ASCEE
                         members</p>
                 </header>
-                <img class="mt-4" src="{{ asset('assets/subscribe-1.svg') }}" alt="Subscribe-1" />
+                <img class="mt-4" src="/build/assets/images/subscribe-1.svg" alt="Subscribe-1" />
                 <button
                     class="mt-4 rounded-lg bg-[--var-darkblue] py-2 text-white transition delay-150 duration-200 ease-in-out hover:bg-[--var-darkyellow] xla:text-sm x2la:text-base">Non-Member
                     DOI
@@ -35,7 +35,7 @@
             </div>
             <div class="box-border flex h-full flex-1 flex-col justify-between p-[20px] text-center">
                 <header class="text-lg font-medium">Free Grammarly for ASCEE members</header>
-                <img src="{{ asset('assets/subscribe-2.jpeg') }}" alt="Subscribe-2" />
+                <img src="/build/assets/images/subscribe-2.jpeg" alt="Subscribe-2" />
                 <button
                     class="mt-4 rounded-lg bg-[--var-darkblue] py-2 text-white transition delay-150 duration-200 ease-in-out hover:bg-[--var-darkyellow] xla:text-sm">Subscribe
                     for
