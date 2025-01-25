@@ -282,22 +282,22 @@
     </aside>
     <script>
         const banners = [
-                document.getElementById('banner1',
-                    document.getElementById('banner2',
-                        document.getElementById('banner3')
-                    ];
-                    let currentIndex = 0;
+            document.getElementById('banner1'),
+            document.getElementById('banner2'),
+            document.getElementById('banner3')
+        ];
+        let currentIndex = 0;
 
-                    function showNextBanner() {
-                        banners[currentIndex].classList.remove('opacity-100');
-                        banners[currentIndex].classList.add('opacity-0', 'pointer-events-none');
+        function showNextBanner() {
+            banners[currentIndex].classList.remove('opacity-100');
+            banners[currentIndex].classList.add('opacity-0', 'pointer-events-none');
 
-                        currentIndex = (currentIndex + 1) % banners.length;
+            currentIndex = (currentIndex + 1) % banners.length;
 
-                        banners[currentIndex].classList.remove('opacity-0', 'pointer-events-none');
-                        banners[currentIndex].classList.add('opacity-100');
-                    }
+            banners[currentIndex].classList.remove('opacity-0', 'pointer-events-none');
+            banners[currentIndex].classList.add('opacity-100');
+        }
 
-                    setInterval(showNextBanner, 3000);
+        setInterval(showNextBanner, 3000);
     </script>
 @endsection
